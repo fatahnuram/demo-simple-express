@@ -15,10 +15,10 @@ A very simple node js app using express.
 
   ```bash
   docker build -t demo-simple-express .
-  docker run -d -p 8080:3000 demo-simple-express
+  docker run -d -p 3000:3000 demo-simple-express
   ```
 
-- then access it on http://localhost:8080/
+- then access it on http://localhost:3000/
 
 ## LICENSE
 
